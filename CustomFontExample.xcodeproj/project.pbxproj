@@ -18,6 +18,9 @@
 		6DBE1DD3174E8DA60081D2D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE1DD2174E8DA60081D2D5 /* Default-568h@2x.png */; };
 		6DBE1DD6174E8DA60081D2D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE1DD5174E8DA60081D2D5 /* ViewController.m */; };
 		6DBE1DD9174E8DA60081D2D5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE1DD7174E8DA60081D2D5 /* ViewController.xib */; };
+		6DBE1DE1174E8E540081D2D5 /* ipag.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE1DDF174E8E540081D2D5 /* ipag.ttf */; };
+		6DBE1DE2174E8E540081D2D5 /* ipam.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE1DE0174E8E540081D2D5 /* ipam.ttf */; };
+		6DBE1DE4174E92A70081D2D5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBE1DE3174E92A70081D2D5 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		6DBE1DD4174E8DA60081D2D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6DBE1DD5174E8DA60081D2D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6DBE1DD8174E8DA60081D2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6DBE1DDF174E8E540081D2D5 /* ipag.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ipag.ttf; sourceTree = "<group>"; };
+		6DBE1DE0174E8E540081D2D5 /* ipam.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ipam.ttf; sourceTree = "<group>"; };
+		6DBE1DE3174E92A70081D2D5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBE1DE4174E92A70081D2D5 /* CoreText.framework in Frameworks */,
 				6DBE1DBD174E8DA60081D2D5 /* UIKit.framework in Frameworks */,
 				6DBE1DBF174E8DA60081D2D5 /* Foundation.framework in Frameworks */,
 				6DBE1DC1174E8DA60081D2D5 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +80,7 @@
 		6DBE1DBB174E8DA60081D2D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6DBE1DE3174E92A70081D2D5 /* CoreText.framework */,
 				6DBE1DBC174E8DA60081D2D5 /* UIKit.framework */,
 				6DBE1DBE174E8DA60081D2D5 /* Foundation.framework */,
 				6DBE1DC0174E8DA60081D2D5 /* CoreGraphics.framework */,
@@ -83,6 +91,8 @@
 		6DBE1DC2174E8DA60081D2D5 /* CustomFontExample */ = {
 			isa = PBXGroup;
 			children = (
+				6DBE1DDF174E8E540081D2D5 /* ipag.ttf */,
+				6DBE1DE0174E8E540081D2D5 /* ipam.ttf */,
 				6DBE1DCB174E8DA60081D2D5 /* AppDelegate.h */,
 				6DBE1DCC174E8DA60081D2D5 /* AppDelegate.m */,
 				6DBE1DD4174E8DA60081D2D5 /* ViewController.h */,
@@ -163,6 +173,8 @@
 				6DBE1DD1174E8DA60081D2D5 /* Default@2x.png in Resources */,
 				6DBE1DD3174E8DA60081D2D5 /* Default-568h@2x.png in Resources */,
 				6DBE1DD9174E8DA60081D2D5 /* ViewController.xib in Resources */,
+				6DBE1DE1174E8E540081D2D5 /* ipag.ttf in Resources */,
+				6DBE1DE2174E8E540081D2D5 /* ipam.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
